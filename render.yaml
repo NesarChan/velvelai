@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: velvelai
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+      - key: PORNPEN_API_KEY
