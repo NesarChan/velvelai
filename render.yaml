@@ -4,6 +4,9 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
+    pythonVersion: 3.11
     envVars:
       - key: TELEGRAM_BOT_TOKEN
+        value: 8143585425:AAHB9LVmE_ShTa91-36OEM_cjH25DJ9Yw-g
       - key: PORNPEN_API_KEY
+        value: JR7r6gUEsYUKTQqWqrn9Vw
